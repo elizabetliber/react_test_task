@@ -2,7 +2,6 @@ import {useState} from 'react'
 import {Checkbox} from 'antd';
 
 
-
 function CarouselComponent({date}) {
     const [checkedState, setCheckedState] = useState(false)
 
